@@ -8,10 +8,10 @@ class Program
     
 
     {
-        //System.IO.StreamWriter// 
-        Journal myJournal = new Journal();
-        Entry newEntry;
-        using (StreamWriter outputFile = new StreamWriter(myJournal))
+        // System.IO.StreamWriter
+        // Journal myJournal = new Journal();
+        // Entry newEntry;
+        // using (StreamWriter outputFile = new StreamWriter(myJournal))
 
         Console.WriteLine("Welcome to your journal!");
         Console.WriteLine("What would you like to do?");
@@ -26,8 +26,9 @@ class Program
         switch (choice)
         {
             case 1:
-                newEntry = new Entry(); newEntry.RecieveInput();
-                myJournal.AddEntry(newEntry);
+                // newEntry = new Entry(); newEntry.RecieveInput();
+                // myJournal.AddEntry(newEntry);
+                Console.WriteLine("you chose 1");
                 break;
             case 2:
                 Console.WriteLine("You selected Option 2");

@@ -2,5 +2,11 @@ using System;
 using System.IO;
 
 class Journal
+
 {
-    static void Main(string[] args)
+
+//     Compile entries into a single list
+// 
+
+
+}

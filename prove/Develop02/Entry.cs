@@ -1,6 +1,7 @@
-using System;
-using System.IO;
-
 class Entry
 {
-    static void Main(string[] args)
+    public string entryDate;
+    public Prompt prompt = new Prompt();
+    public string 
+    
+}
