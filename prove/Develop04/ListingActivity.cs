@@ -2,7 +2,7 @@ class ListingChoice
 {
     public void Choice3()
     {
-        Console.WriteLine("This breathing activity is great for relaxation and focus. Choose how many seconds you would like to participate in this activity.");
+        Console.WriteLine("This listing activity is great for relaxation and focus. Choose how many seconds you would like to participate in this activity.");
         Console.WriteLine("Enter the duration in seconds: ");
         if (int.TryParse(Console.ReadLine(), out int duration))
         {
