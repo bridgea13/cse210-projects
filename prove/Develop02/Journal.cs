@@ -43,7 +43,6 @@ internal class Journal
         Console.WriteLine(entries.Count);
 
         string json = System.Text.Json.JsonSerializer.Serialize(entries, new JsonSerializerOptions { WriteIndented = true });
-        Console.WriteLine(json);
         File.WriteAllText(filePath, json);
         Console.WriteLine("List of entries saved to file: " + filePath);
     }
@@ -53,8 +52,6 @@ internal class Journal
     {
         
         String jsonData = File.ReadAllText(filePath);
-        Console.WriteLine(jsonData);
-        Console.ReadLine();
         entries = JsonConvert.DeserializeObject<List<Entry>>(jsonData);
 
         Console.WriteLine("Your journal is being loaded.");
